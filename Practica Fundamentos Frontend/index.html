@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joan Felez">
+    <meta name="description" content="Responsive CV Web">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Curriculum Vitae</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/app.js" type="module"></script>
+</head>
+<body>
+    <nav class="top-menu">
+        <ul>
+            <li>
+                <a href="section#inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="section#estudios">Estudios</a>
+            </li>
+            <li>
+                <a href="section#experiencia">Experiencia</a>
+            </li>
+            <li>
+                <a href="section#sobreMi">Sobre mi</a>
+            </li>
+            <li>
+                <a href="section#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="mobile-top-menu">
+            <ul>
+                <li>
+                    <a href="section#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="section#estudios">Estudios</a>
+                </li>
+                <li>
+                    <a href="section#experiencia">Experiencia</a>
+                </li>
+                <li>
+                    <a href="section#sobreMi">Sobre mi</a>
+                </li>
+                <li>
+                    <a class="u" href="section#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="javascript:;" class="menu-btn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </a>
+    <section id="inicio">
+        <header>
+            <div class="title-wrapper">
+                <h1 class="section-h1">Curriculum Vitae</h1>
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <article>
+                <h2 id="nombre">Joan Felez Albero</h2>
+                <p id="puesto">Consultor Informático</p>
+                <p id="direccion">C/Teruel 29 22005 Huesca</p>
+                <img id="icono-dir" src="./images/iconoDireccion.jpg" alt="">
+                <p id="teléfono">637889221</p>
+                <img id="icono-telf" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU4IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OCA1ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM0MjRBNjA7IiBkPSJNNDEuNTk1LDU4SDE2LjQwNUMxNC41MjUsNTgsMTMsNTYuNDc1LDEzLDU0LjU5NVYzLjQwNUMxMywxLjUyNSwxNC41MjUsMCwxNi40MDUsMGgyNS4xODkgIEM0My40NzUsMCw0NSwxLjUyNSw0NSwzLjQwNXY1MS4xODlDNDUsNTYuNDc1LDQzLjQ3NSw1OCw0MS41OTUsNTh6Ii8+CjxyZWN0IHg9IjEzIiB5PSI2IiBzdHlsZT0iZmlsbDojRTdFQ0VEOyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjQwIi8+CjxjaXJjbGUgc3R5bGU9ImZpbGw6IzI2MkIzNTsiIGN4PSIyOSIgY3k9IjUyIiByPSIzIi8+CjxwYXRoIHN0eWxlPSJmaWxsOiMyNjJCMzU7IiBkPSJNMjksNGgtNGMtMC41NTMsMC0xLTAuNDQ3LTEtMXMwLjQ0Ny0xLDEtMWg0YzAuNTUzLDAsMSwwLjQ0NywxLDFTMjkuNTUzLDQsMjksNHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzI2MkIzNTsiIGQ9Ik0zMyw0aC0xYy0wLjU1MywwLTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDFjMC41NTMsMCwxLDAuNDQ3LDEsMVMzMy41NTMsNCwzMyw0eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojMzA4M0M5OyIgZD0iTTMwLjk2MiwxNy4wMTloLTMuOTI0Yy0wLjU3MywwLTEuMDM4LTAuNDY1LTEuMDM4LTEuMDM4di0zLjkyNGMwLTAuNTczLDAuNDY1LTEuMDM4LDEuMDM4LTEuMDM4ICBoMy45MjRjMC41NzMsMCwxLjAzOCwwLjQ2NSwxLjAzOCwxLjAzOHYzLjkyNEMzMiwxNi41NTQsMzEuNTM1LDE3LjAxOSwzMC45NjIsMTcuMDE5eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojODhDMDU3OyIgZD0iTTIxLjk2MiwxNy4wMTloLTMuOTI0Yy0wLjU3MywwLTEuMDM4LTAuNDY1LTEuMDM4LTEuMDM4di0zLjkyNGMwLTAuNTczLDAuNDY1LTEuMDM4LDEuMDM4LTEuMDM4ICBoMy45MjRjMC41NzMsMCwxLjAzOCwwLjQ2NSwxLjAzOCwxLjAzOHYzLjkyNEMyMywxNi41NTQsMjIuNTM1LDE3LjAxOSwyMS45NjIsMTcuMDE5eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojREM2OTFEOyIgZD0iTTM5Ljk2MiwxNy4wMTloLTMuOTI0Yy0wLjU3MywwLTEuMDM4LTAuNDY1LTEuMDM4LTEuMDM4di0zLjkyNGMwLTAuNTczLDAuNDY1LTEuMDM4LDEuMDM4LTEuMDM4ICBoMy45MjRjMC41NzMsMCwxLjAzOCwwLjQ2NSwxLjAzOCwxLjAzOHYzLjkyNEM0MSwxNi41NTQsNDAuNTM1LDE3LjAxOSwzOS45NjIsMTcuMDE5eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRUJCQTE2OyIgZD0iTTMwLjk2MiwyNmgtMy45MjRDMjYuNDY1LDI2LDI2LDI1LjUzNSwyNiwyNC45NjJ2LTMuOTI0QzI2LDIwLjQ2NSwyNi40NjUsMjAsMjcuMDM4LDIwaDMuOTI0ICBDMzEuNTM1LDIwLDMyLDIwLjQ2NSwzMiwyMS4wMzh2My45MjRDMzIsMjUuNTM1LDMxLjUzNSwyNiwzMC45NjIsMjZ6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiM3MzgzQkY7IiBkPSJNMjEuOTYyLDI2aC0zLjkyNEMxNy40NjUsMjYsMTcsMjUuNTM1LDE3LDI0Ljk2MnYtMy45MjRDMTcsMjAuNDY1LDE3LjQ2NSwyMCwxOC4wMzgsMjBoMy45MjQgIEMyMi41MzUsMjAsMjMsMjAuNDY1LDIzLDIxLjAzOHYzLjkyNEMyMywyNS41MzUsMjIuNTM1LDI2LDIxLjk2MiwyNnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0REMzUyRTsiIGQ9Ik0zOS45NjIsMjZoLTMuOTI0QzM1LjQ2NSwyNiwzNSwyNS41MzUsMzUsMjQuOTYydi0zLjkyNEMzNSwyMC40NjUsMzUuNDY1LDIwLDM2LjAzOCwyMGgzLjkyNCAgQzQwLjUzNSwyMCw0MSwyMC40NjUsNDEsMjEuMDM4djMuOTI0QzQxLDI1LjUzNSw0MC41MzUsMjYsMzkuOTYyLDI2eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojQTQ4NUJFOyIgZD0iTTMwLjk2MiwzNWgtMy45MjRDMjYuNDY1LDM1LDI2LDM0LjUzNSwyNiwzMy45NjJ2LTMuOTI0QzI2LDI5LjQ2NSwyNi40NjUsMjksMjcuMDM4LDI5aDMuOTI0ICBDMzEuNTM1LDI5LDMyLDI5LjQ2NSwzMiwzMC4wMzh2My45MjRDMzIsMzQuNTM1LDMxLjUzNSwzNSwzMC45NjIsMzV6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNFQTYyNDg7IiBkPSJNMjEuOTYyLDM1aC0zLjkyNEMxNy40NjUsMzUsMTcsMzQuNTM1LDE3LDMzLjk2MnYtMy45MjRDMTcsMjkuNDY1LDE3LjQ2NSwyOSwxOC4wMzgsMjloMy45MjQgIEMyMi41MzUsMjksMjMsMjkuNDY1LDIzLDMwLjAzOHYzLjkyNEMyMywzNC41MzUsMjIuNTM1LDM1LDIxLjk2MiwzNXoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzI1QUU4ODsiIGQ9Ik0zOS45NjIsMzVoLTMuOTI0QzM1LjQ2NSwzNSwzNSwzNC41MzUsMzUsMzMuOTYydi0zLjkyNEMzNSwyOS40NjUsMzUuNDY1LDI5LDM2LjAzOCwyOWgzLjkyNCAgQzQwLjUzNSwyOSw0MSwyOS40NjUsNDEsMzAuMDM4djMuOTI0QzQxLDM0LjUzNSw0MC41MzUsMzUsMzkuOTYyLDM1eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+                <p id="e-mail">joan.felez@gmail.com</p>
+                <img id="icono-correo" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU3IDU3IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NyA1NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPGc+CgkJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0RDRDZDRDsiIHBvaW50cz0iMCw1IDAsNDQgMjgsNDQgNTYsNDQgNTYsNSAgICIvPgoJCTxwYXRoIHN0eWxlPSJmaWxsOiNFOEUzRDk7IiBkPSJNMzAuOTY1LDI3LjEwN2MtMS42MzcsMS40NjItNC4yOTIsMS40NjItNS45MywwbC0yLjA4Ny0xLjg0M0MxNi40MTksMzEuMDkxLDAsNDQsMCw0NGgyMS42MDcgICAgaDEyLjc4N0g1NmMwLDAtMTYuNDE5LTEyLjkwOS0yMi45NDgtMTguNzM2TDMwLjk2NSwyNy4xMDd6Ii8+CgkJPHBhdGggc3R5bGU9ImZpbGw6I0VGRUJERTsiIGQ9Ik0wLDVsMjUuMDM1LDIyLjEwN2MxLjYzNywxLjQ2Miw0LjI5MiwxLjQ2Miw1LjkzLDBMNTYsNUgweiIvPgoJPC9nPgoJPGc+CgkJPGNpcmNsZSBzdHlsZT0iZmlsbDojNzZDOUIwOyIgY3g9IjQ2IiBjeT0iNDEiIHI9IjExIi8+CgkJPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik01Miw0MGgtNXYtNWMwLTAuNTUyLTAuNDQ3LTEtMS0xcy0xLDAuNDQ4LTEsMXY2YzAsMC41NTIsMC40NDcsMSwxLDFoNmMwLjU1MywwLDEtMC40NDgsMS0xICAgIFM1Mi41NTMsNDAsNTIsNDB6Ii8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+            </article>
+            <figure>
+                <img src="./images/fotoFrontend.jpg" alt="Foto de perfil">
+            </figure>
+            <nav id="redes-sociales">
+                <ul>
+                    <li id="icon-facebook"><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                    <li id="icon-twitter"><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                    <li id="icon-linkedin"><a href="http://www.linkedin.com/in/joan-felez-albero"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="estudios">
+        <header>
+            <div class="title-wrapper">
+                <h1 class="section-h1">Estudios</h1>
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <article id="border">
+                <h2>F.P en Desarrollo de Aplicaciones Multiplataforma</h2>
+                <p id="lugar">Instituto Bajo Aragón</p>
+                <p id="ciudad">Alcañiz</p>
+                <p id="fechas">2016-2019</p>
+            </article>
+            <article>
+                <h2>F.P en Automoción</h2>
+                <p id="lugar">Colegio Nuestra Señora del Pilar</p>
+                <p id="ciudad">Zaragoza</p>
+                <p id="fechas">2007-2009</p>
+            </article>            
+        </div>
+    </section>
+    <section id="experiencia">
+        <header>
+            <div class="title-wrapper">
+                <h1 class="section-h1">Experiencia</h1>
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <article id="border">
+                <h2>Consultor Informático</h2>
+                <p id="empresa"><b>Empresa:</b> Movicoders S.L</p>
+                <p id="fechas"><b>Fecha:</b> Octubre´17-Actual</p>
+                <p id="ciudad"><b>Ciudad:</b> Huesca</p>
+                <div id="description">
+                    <h3><u>Descripción</u></h3>
+                    <p>Soluciones de movilidad multiplataforma con tecnologia <span>Movilizer</span></p>
+                    <p>Actualmente trabajando en un proyecto de trazabilidad para B.A.T</p>
+                    <p>Tecnologias:</p>
+                    <ul>
+                        <li>Movilizer</li>
+                        <li>Node.js</li>
+                        <li>Redis</li>
+                        <li>Cucumber</li>
+                        <li>MS Server</li>
+                        <li>Python</li>
+                        <li>JUnit</li>
+                    </ul>
+                </div>
+            </article>
+            <article id="border">
+                <h2>Chef</h2>
+                <p id="empresa"><b>Empresa:</b> Red Lion Pub</p>
+                <p id="fechas"><b>Fecha:</b> Diciembre´15-Julio´16</p>
+                <p id="ciudad"><b>Ciudad:</b> Londres</p>
+                <div id="description">
+                    <h3><u>Descripción</u></h3>
+                    <p>Jefe de Cocina en un típico pub ingles</p>
+                    <p>Funciones:</p>
+                    <ul>
+                        <li>Cocina</li>
+                        <li>Mantenimiento</li>
+                        <li>Pedidos</li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <h2>Mecánico</h2>
+                <p id="empresa"><b>Empresa:</b> Taller La Figuera & Los Olivos</p>
+                <p id="fechas"><b>Fecha:</b> Julio´11-Noviembre´15</p>
+                <p id="ciudad"><b>Ciudad:</b> Huesca</p>
+                <div id="description">
+                    <h3><u>Descripción</u></h3>
+                    <p>Realización de todo tipo de mecánica, complementadas con tareas administrativas, de gestión o atención al cliente</p>
+                    <p>Funciones:</p>
+                    <ul>
+                        <li>Mecánica General</li>
+                        <li>Mecánica Rápida</li>
+                        <li>Atención al cliente (Recepción de vehículos, Ordenes de Reparación)</li>
+                        <li>Conversión de vehículos a GLP</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="sobreMi">
+        <header>
+            <div class="title-wrapper">
+                <h1 id="sobre">Sobre</h1>
+                <h1 id="mi">Mi</h1>
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <p>Aqui teneis un pequeño video donde os cuento un poco más sobre mi</p>
+            <figure class="video">
+                <iframe width="560" height="315" src="https://drive.google.com/file/d/1Kuryx7F3XxmbQTw7DDaO_0bfGeukOt3O/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </figure>
+        </div>
+    </section>
+    <section id="contacto">
+        <header>
+            <div class="title-wrapper">
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <p>Para cualquier duda, rellena el formulario.<br>Contestaré lo antes posible!!</p>
+            <form action="" id="contact">
+                <ul>
+                    <li class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre" required>
+                    </li>
+                    <li class="form-group">
+                        <label  for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </li>
+                    <li class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+                    </li>
+                    <li class="form-group">
+                        <label  for="message">Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    </li>
+                    <li class="selection">
+                        <label for="selection">¿Cómo me has conocido?</label>
+                        <select name="selection" id="selection">
+                            <option value="familia">Familiares y/o amigos</option>
+                            <option value="redes">Redes sociales</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                        <textarea name="mensaje-conocido" id="mensaje-conocido" cols="30" rows="5" placeholder="¿Cómo me has conocido?"></textarea>
+                    </li>
+                </ul>
+                <button class="boton" type="submit" id="send">Enviar!</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
